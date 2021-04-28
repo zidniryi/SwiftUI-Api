@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Food: Decodable, Identifiable {
+struct Food: Decodable, Identifiable{
+    let id: Int?
     var name: String
     var image: String
     var desc: String
