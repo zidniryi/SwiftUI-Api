@@ -23,18 +23,22 @@ class NetworkServices: ObservableObject {
     
     private func getDataFood() {
         AF.request("\(base_url)")
-        
-            .responseDecodable(of: [Food].self) { response in
-               
+            .responseDecodable(of: [FoodResponse].self) { response in
                 switch response.result{
                 case .success(let value):
-                    self.foods = value
+                    let foodList = value.map {  data in
+                        Food(
+                             name: data.name,
+                            image: data.image,
+                            desc: data.desc
+                         )
+                     }
+                    self.foods = foodList
                     self.loading = false
                 case .failure(let error):
                     self.loading = false
                     print(error)
                 }
-              
                 
             }
     }

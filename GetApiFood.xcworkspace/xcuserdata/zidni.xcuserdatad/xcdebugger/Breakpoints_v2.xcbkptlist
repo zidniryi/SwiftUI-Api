@@ -14,8 +14,8 @@
             filePath = "GetApiFood/Network/NetworkServices.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "getDataFood()"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,10 +30,261 @@
             filePath = "GetApiFood/Network/NetworkServices.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "getDataFood()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "639A685A-F81A-460E-8004-3241CE6CFEF1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetApiFood/Views/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "639A685A-F81A-460E-8004-3241CE6CFEF1 - 58c21dd2ad29774a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of GetApiFood.ContentView.networkServices : GetApiFood.NetworkServices"
+                  moduleName = "GetApiFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zidni/Desktop/GetApiFood/GetApiFood/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "639A685A-F81A-460E-8004-3241CE6CFEF1 - b79cc3d2b12bb432"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetApiFood.ContentView.networkServices.getter : GetApiFood.NetworkServices"
+                  moduleName = "GetApiFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zidni/Desktop/GetApiFood/GetApiFood/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "639A685A-F81A-460E-8004-3241CE6CFEF1 - 237720d0c1d5ccc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetApiFood.ContentView.networkServices.setter : GetApiFood.NetworkServices"
+                  moduleName = "GetApiFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zidni/Desktop/GetApiFood/GetApiFood/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  uuid = "639A685A-F81A-460E-8004-3241CE6CFEF1 - 88e490115c6b1841"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetApiFood.ContentView.networkServices.modify : GetApiFood.NetworkServices"
+                  moduleName = "GetApiFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zidni/Desktop/GetApiFood/GetApiFood/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "14">
+               </Location>
+               <Location
+                  uuid = "639A685A-F81A-460E-8004-3241CE6CFEF1 - e8089d295678a98d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetApiFood.ContentView.networkServices.modify : GetApiFood.NetworkServices with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "GetApiFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zidni/Desktop/GetApiFood/GetApiFood/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "639A685A-F81A-460E-8004-3241CE6CFEF1 - 8770bdcfa6d326"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetApiFood.ContentView.$networkServices.getter : SwiftUI.ObservedObject&lt;GetApiFood.NetworkServices&gt;.Wrapper"
+                  moduleName = "GetApiFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zidni/Desktop/GetApiFood/GetApiFood/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "639A685A-F81A-460E-8004-3241CE6CFEF1 - 8b786cc65b9673ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetApiFood.ContentView.init() -&gt; GetApiFood.ContentView"
+                  moduleName = "GetApiFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zidni/Desktop/GetApiFood/GetApiFood/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93AD0643-1F3A-440B-84FA-729044AF355D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetApiFood/Views/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "93AD0643-1F3A-440B-84FA-729044AF355D - 1403b2f368a82a58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;GetApiFood.Food&gt;, Swift.Optional&lt;Swift.Int&gt;, SwiftUI.HStack&lt;SwiftUI.NavigationLink&lt;GetApiFood.FoodRowView, GetApiFood.FoodDetailListView&gt;&gt;&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarTitle(SwiftUI.Text) -&gt; some&gt;&gt;.0 in GetApiFood.ContentView.body.getter : some"
+                  moduleName = "GetApiFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zidni/Desktop/GetApiFood/GetApiFood/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "1325">
+               </Location>
+               <Location
+                  uuid = "93AD0643-1F3A-440B-84FA-729044AF355D - c650321d15b66728"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GetApiFood.Food) -&gt; SwiftUI.NavigationLink&lt;GetApiFood.FoodRowView, GetApiFood.FoodDetailListView&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;GetApiFood.Food&gt;, Swift.Optional&lt;Swift.Int&gt;, SwiftUI.HStack&lt;SwiftUI.NavigationLink&lt;GetApiFood.FoodRowView, GetApiFood.FoodDetailListView&gt;&gt;&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarTitle(SwiftUI.Text) -&gt; some&gt;&gt;.0 in GetApiFood.ContentView.body.getter : some"
+                  moduleName = "GetApiFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zidni/Desktop/GetApiFood/GetApiFood/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "439">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F76E9C6-BE90-42DB-B768-C1E4201CB8E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetApiFood/Views/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "2F76E9C6-BE90-42DB-B768-C1E4201CB8E0 - caa92cb8bdd30363"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (GetApiFood.Food) -&gt; SwiftUI.NavigationLink&lt;GetApiFood.FoodRowView, GetApiFood.FoodDetailListView&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;GetApiFood.Food&gt;, Foundation.UUID, SwiftUI.HStack&lt;SwiftUI.NavigationLink&lt;GetApiFood.FoodRowView, GetApiFood.FoodDetailListView&gt;&gt;&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarTitle(SwiftUI.Text) -&gt; some&gt;&gt;.0 in GetApiFood.ContentView.body.getter : some"
+                  moduleName = "GetApiFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zidni/Desktop/GetApiFood/GetApiFood/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "225">
+               </Location>
+               <Location
+                  uuid = "2F76E9C6-BE90-42DB-B768-C1E4201CB8E0 - 2411af45dbd13c45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; GetApiFood.FoodRowView in closure #1 (GetApiFood.Food) -&gt; SwiftUI.NavigationLink&lt;GetApiFood.FoodRowView, GetApiFood.FoodDetailListView&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;GetApiFood.Food&gt;, Foundation.UUID, SwiftUI.HStack&lt;SwiftUI.NavigationLink&lt;GetApiFood.FoodRowView, GetApiFood.FoodDetailListView&gt;&gt;&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarTitle(SwiftUI.Text) -&gt; some&gt;&gt;.0 in GetApiFood.ContentView.body.getter : some"
+                  moduleName = "GetApiFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zidni/Desktop/GetApiFood/GetApiFood/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "173">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79D90A89-357F-4B12-ADDE-A0281739E20D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetApiFood/Views/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "128D55A2-2F41-4D12-A41F-2BF5FF59F378"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetApiFood/Views/FoodRowView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
