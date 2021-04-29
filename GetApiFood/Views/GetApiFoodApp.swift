@@ -7,11 +7,24 @@
 
 import SwiftUI
 
+
+
 @main
 struct GetApiFoodApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+               ContentView()
+                 .tabItem {
+                    Image(systemName: "homekit")
+                    Text("Home")
+               }
+               ProfileView()
+                 .tabItem {
+                    Image(systemName: "person.fill")
+                    Text("About Tab")
+              }
+            }
         }
     }
 }

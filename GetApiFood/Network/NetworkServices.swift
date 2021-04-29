@@ -13,6 +13,7 @@ import Combine
 class NetworkServices: ObservableObject {
     @Published var foods: [Food] = []
     @Published var loading = false
+    @Published var error = false
     
     private let base_url: String = "http://34.101.86.157:7000/foods"
     
@@ -28,16 +29,18 @@ class NetworkServices: ObservableObject {
                 case .success(let value):
                     let foodList = value.map {  data in
                         Food(
-                             name: data.name,
+                            name: data.name,
                             image: data.image,
                             desc: data.desc
-                         )
-                     }
+                        )
+                    }
                     self.foods = foodList
                     self.loading = false
-                case .failure(let error):
+                    self.error = false
+                case .failure(_):
                     self.loading = false
-                    print(error)
+                    self.error = true
+                    
                 }
                 
             }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		128AA2B7263AC11100B0554E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128AA2B6263AC11100B0554E /* ProfileView.swift */; };
+		128AA2BC263AC34200B0554E /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128AA2BB263AC34200B0554E /* CircleImageView.swift */; };
+		128AA2C1263AC38200B0554E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128AA2C0263AC38200B0554E /* MapView.swift */; };
 		12A11C1F263905D1004A50C8 /* GetApiFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A11C1E263905D1004A50C8 /* GetApiFoodApp.swift */; };
 		12A11C21263905D1004A50C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A11C20263905D1004A50C8 /* ContentView.swift */; };
 		12A11C23263905D2004A50C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A11C22263905D2004A50C8 /* Assets.xcassets */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		128AA2B6263AC11100B0554E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		128AA2BB263AC34200B0554E /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		128AA2C0263AC38200B0554E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		12A11C1B263905D1004A50C8 /* GetApiFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetApiFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A11C1E263905D1004A50C8 /* GetApiFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetApiFoodApp.swift; sourceTree = "<group>"; };
 		12A11C20263905D1004A50C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -165,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				12FD001E2639BEF600FD6C10 /* ImageWithURL.swift */,
+				128AA2BB263AC34200B0554E /* CircleImageView.swift */,
+				128AA2C0263AC38200B0554E /* MapView.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -176,6 +184,7 @@
 				12A11C20263905D1004A50C8 /* ContentView.swift */,
 				12FDFFD526399E9B00FD6C10 /* FoodRowView.swift */,
 				12FDFFE32639A00400FD6C10 /* FoodDetailListView.swift */,
+				128AA2B6263AC11100B0554E /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -458,12 +467,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FDFFE42639A00400FD6C10 /* FoodDetailListView.swift in Sources */,
+				128AA2B7263AC11100B0554E /* ProfileView.swift in Sources */,
 				12FDFFBC26399A0900FD6C10 /* NetworkServices.swift in Sources */,
+				128AA2C1263AC38200B0554E /* MapView.swift in Sources */,
 				12A11C21263905D1004A50C8 /* ContentView.swift in Sources */,
 				12FDFFB72639993900FD6C10 /* FoodResponse.swift in Sources */,
 				12A11C1F263905D1004A50C8 /* GetApiFoodApp.swift in Sources */,
 				12FDFFAF2639983E00FD6C10 /* Food.swift in Sources */,
 				12FDFFD626399E9B00FD6C10 /* FoodRowView.swift in Sources */,
+				128AA2BC263AC34200B0554E /* CircleImageView.swift in Sources */,
 				12FD001F2639BEF600FD6C10 /* ImageWithURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

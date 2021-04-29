@@ -16,14 +16,22 @@ struct ContentView: View {
             VStack{
                 if networkServices.loading{
                     Text("Loading")
-                }else {
+                        .foregroundColor(.blue)
+                        .lineLimit(nil)
+                        .font(.system(size: 16, weight: .bold))
+                }
+                else if(networkServices.error){
+                    Text("Terjadi Kegagalan Saat Memuat Data.").foregroundColor(.red)
+                    font(.system(size: 16, weight:.bold))
+                }
+                else {
                     List(networkServices.foods) { food in
                         NavigationLink(destination: FoodDetailListView(food: food)){
                             FoodRowView(food: food)
                         }
                     }
                 }
-        }
+            }
             .navigationBarTitle(Text("Foods"))
         }
     }

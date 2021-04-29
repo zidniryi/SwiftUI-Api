@@ -13,22 +13,18 @@ struct FoodRowView : View {
     
     var body: some View {
         HStack {
-//            Use this is error karena sertifikat gambarnya sudah expired
-//            URLImage(URL(string: "\(food.image)")!, delay: 0.25) { proxy in
-//                proxy.image.resizable()
-//                    .frame(width: 90, height: 120)
-//
-//            }
+            //            Use this is error karena sertifikat gambarnya sudah expired
+            //            URLImage(URL(string: "\(food.image)")!, delay: 0.25) { proxy in
+            //                proxy.image.resizable()
+            //                    .frame(width: 90, height: 120)
+            //
+            //            }
             
             URLImage(URL(string:  "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg")!, delay: 0.25) { proxy in
                 proxy.image.resizable()
-                    .frame(width: 120, height: 100)
-
+                    .frame(width: 140, height: 100)
+                
             }
-            
-//            ImageWithURL("https://cintaihidup.com/wp-content/uploads/2017/03/prawns-1050638_1920-768x576.jpg")
-            
-            
             
             VStack {
                 Spacer()
@@ -36,9 +32,10 @@ struct FoodRowView : View {
                     Text(food.name)
                         .foregroundColor(.blue)
                         .lineLimit(nil)
+                        .font(.system(size: 16, weight: .bold))
                     Spacer()
                 }
-
+                
                 Spacer()
             }
         }.frame(height: 130)
