@@ -21,7 +21,6 @@ struct FoodDetailListView: View {
                     .frame(width: UIScreen.main.bounds.height/2*1, height: UIScreen.main.bounds.height/3)
             }
             HStack {
-                
                 Spacer()
             }
             Text(food.name)
@@ -31,11 +30,11 @@ struct FoodDetailListView: View {
             HStack {
                 Text("Description").foregroundColor(.gray)
                 Spacer()
-            }
+            }.padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             ScrollView {
                 Text(food.desc)
                 Spacer()
-            }
+            }.padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             
         }.navigationBarTitle(Text(food.name), displayMode: .inline)
         .padding()

@@ -11,11 +11,11 @@ struct ProfileView: View {
     var body: some View {
         VStack {
             MapView()
-                .frame(height: 300)
+                .frame(height: 400)
             
             CircleImageView()
-                .offset(y: -130)
-                .padding(.bottom, -130)
+                .offset(y: -220)
+                .padding(.bottom, -200)
             
             VStack(alignment: .leading) {
                 Text("Zidni Ridwan Nulmuarif")
@@ -25,11 +25,30 @@ struct ProfileView: View {
                     Text("Software Developer")
                         .font(.subheadline)
                     Spacer()
-                    Text("Jakarta")
+                    Text("Indonesia")
                         .font(.subheadline)
                 }
+                
+                ScrollView{
+                    Divider()
+                   Text("gitbub : Zidniryi")
+                       .foregroundColor(Color.black)
+                    Divider()
+                   Text("email : zidniryi123@gmail.com")
+                       .foregroundColor(Color.black)
+                    Divider()
+                   Text("ig : @zidniryi")
+                       .foregroundColor(Color.black
+                   )
+                   Divider()
+                   Text("linkedin : Zidni Ridwan Nulmuarif")
+                       .foregroundColor(Color.black
+                   )
+                   
+            }
             }
             .padding()
+
         }
     }
 }
